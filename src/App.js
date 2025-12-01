@@ -1,11 +1,17 @@
 import React from 'react';
+import Navbar from './componentes/navbar';
 
 function App() {
-  const value = 'Marcio Alberto de barros';
-  return <div>Hello {value}
-          <p>Essa é uma simples pagina com react e azure.</p>
   
-        </div>;
+  return (
+
+    <Navbar />
+
+
+  );
+    
+ 
+        
 }
 
 export default App;
